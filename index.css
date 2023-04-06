@@ -1,0 +1,21 @@
+.div1 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(203, 9, 203), rgb(157, 28, 186));
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.buttons {
+    color: rgb(1, 2, 2);
+    background-color: aliceblue;
+    border: 1px solid white;
+    display: flex;
+    border-radius: 7px;
+    flex-direction: row;
+    padding: 4px;
+    gap: 40px;
+}
